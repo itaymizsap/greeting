@@ -1,4 +1,4 @@
-package com.eci.spring.tutorials.springmicroservicesitay;
+package com.itay.spring.tutorials.spring.microservices;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
