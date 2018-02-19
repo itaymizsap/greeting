@@ -1,4 +1,4 @@
-package com.itay.spring.tutorials.spring.microservices.greeting.services;
+package com.itay.spring.tutorials.microservices.greeting.ui.greeting.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
@@ -9,8 +9,8 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.itay.spring.tutorials.spring.microservices.greeting.persistence.Greeting;
-import com.itay.spring.tutorials.spring.microservices.greeting.persistence.GreetingRepository;
+import com.itay.spring.tutorials.microservices.greeting.ui.greeting.persistence.Greeting;
+import com.itay.spring.tutorials.microservices.greeting.ui.greeting.persistence.GreetingRepository;
 
 @Service
 @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)

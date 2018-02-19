@@ -1,4 +1,4 @@
-package com.itay.spring.tutorials.spring.microservices.greeting.persistence;
+package com.itay.spring.tutorials.microservices.greeting.ui.greeting.persistence;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

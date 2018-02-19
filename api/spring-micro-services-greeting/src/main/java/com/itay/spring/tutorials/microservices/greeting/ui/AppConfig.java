@@ -1,4 +1,4 @@
-package com.itay.spring.tutorials.spring.microservices;
+package com.itay.spring.tutorials.microservices.greeting.ui;
 
 import javax.validation.constraints.NotNull;
 

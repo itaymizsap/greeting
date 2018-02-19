@@ -1,6 +1,6 @@
-package com.itay.spring.tutorials.spring.microservices.greeting.services;
+package com.itay.spring.tutorials.microservices.greeting.ui.greeting.services;
 
-import com.itay.spring.tutorials.spring.microservices.greeting.persistence.Greeting;
+import com.itay.spring.tutorials.microservices.greeting.ui.greeting.persistence.Greeting;
 
 public interface IGreetingService {
     

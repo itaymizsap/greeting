@@ -1,4 +1,4 @@
-package com.itay.spring.tutorials.spring.microservices;
+package com.itay.spring.tutorials.microservices.greeting.ui;
 
 public class A {
     public boolean f(A a) {

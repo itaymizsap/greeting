@@ -1,8 +1,7 @@
-package com.itay.spring.tutorials.spring.microservices.greeting.rest;
+package com.itay.spring.tutorials.microservices.greeting.ui.greeting.rest;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.itay.spring.tutorials.spring.microservices.greeting.persistence.Greeting;
-import com.itay.spring.tutorials.spring.microservices.greeting.services.IGreetingService;
+import com.itay.spring.tutorials.microservices.greeting.ui.greeting.persistence.Greeting;
+import com.itay.spring.tutorials.microservices.greeting.ui.greeting.services.IGreetingService;
 
 @RestController
 public class GreetingController {
