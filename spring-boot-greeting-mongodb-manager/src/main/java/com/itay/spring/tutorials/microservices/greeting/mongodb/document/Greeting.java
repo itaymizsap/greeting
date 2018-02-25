@@ -3,7 +3,7 @@ package com.itay.spring.tutorials.microservices.greeting.mongodb.document;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document(collection = "greeting")
 public class Greeting {
 
     @Id
