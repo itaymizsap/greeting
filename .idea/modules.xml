@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UsingIntelliJExerciseMaven/UsingIntelliJExerciseMaven.iml" filepath="$PROJECT_DIR$/UsingIntelliJExerciseMaven/UsingIntelliJExerciseMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongodb/manager/spring-boot-greeting-mongodb-manager.iml" filepath="$PROJECT_DIR$/mongodb/manager/spring-boot-greeting-mongodb-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/spring-boot-greeting-service.iml" filepath="$PROJECT_DIR$/api/spring-boot-greeting-service.iml" />
+    </modules>
+  </component>
+</project>
